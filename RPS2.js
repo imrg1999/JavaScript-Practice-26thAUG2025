@@ -8,4 +8,6 @@ function RPS(user,computer) {
     }
 }
 
-console.log("The Winner is:" +RPS("paper","scissor"));
+console.log("The Winner is:" +RPS("paper","scissors"));
+console.log("The Winner is:" +RPS("rock","scissors"));
+console.log("The Winner is:" +RPS("scissors","scissors"));
