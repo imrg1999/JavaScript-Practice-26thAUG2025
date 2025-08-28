@@ -1,6 +1,6 @@
 let findLargeNSmall = (arr) => {
     let largest = arr[0];
-    let smallest = arr[1];
+    let smallest = arr[0];
     for(let index = 0; index<arr.length; index++) {
         if(arr[index] > largest) {
             largest = arr[index];
@@ -14,4 +14,4 @@ let findLargeNSmall = (arr) => {
     
 }
 
-findLargeNSmall([5,9,8,4,10,20,-8])
+findLargeNSmall([5,9,8,4,10,20,-8]);
